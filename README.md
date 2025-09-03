@@ -55,12 +55,27 @@ graph TD
 - Python 3.10 或更高版本
 - Tushare Pro 账号和 API Token
 
+### 安装步骤
+
+1. **从 PyPI 安装**
+```bash
+pip install smart-financial-mcp
+```
+
+2. **从源码安装**
+```bash
+git clone https://github.com/YUHAI0/smart-financial-mcp.git
+cd smart-financial-mcp
+pip install -e .
+```
+
 ### 配置 Tushare Token
 
 首次使用需要配置 Tushare Pro API Token：
 
 1. 注册 [Tushare Pro](https://tushare.pro) 账号
 2. 获取 API Token
+3. 使用 AI 助手的 `setup_tushare_token` 工具进行配置
 
 ## 🔧 在 MCP 服务器中添加
 
@@ -69,27 +84,13 @@ graph TD
   "mcpServers": {
     "smart-financial-mcp": {
       "command": "uvx",
-      "args": ["smart-finacial-mcp"],
+      "args": ["smart-financial-mcp"],
       "env": {
         "TUSHARE_TOKEN": "your-tushare-token"
       }
     }
   }
 }
-```
-
-### 其他 MCP 客户端
-
-对于其他支持 MCP 协议的客户端，可以直接运行：
-
-```bash
-python -m smart_finacial_mcp.server
-```
-
-或使用入口点：
-
-```bash
-smart-finacial-mcp
 ```
 
 ## 📚 MCP 工具完整指南
@@ -180,17 +181,17 @@ smart-finacial-mcp
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YUHAI0/smart-finacial-mcp.git
-cd smart-finacial-mcp
+git clone https://github.com/YUHAI0/smart-financial-mcp.git
+cd smart-financial-mcp
 
 # 安装开发依赖
 pip install -e ".[dev]"
 
 # 运行代码质量检查
-black smart_finacial_mcp/
-isort smart_finacial_mcp/
-flake8 smart_finacial_mcp/
-mypy smart_finacial_mcp/
+black smart_financial_mcp/
+isort smart_financial_mcp/
+flake8 smart_financial_mcp/
+mypy smart_financial_mcp/
 ```
 
 ## 📄 开源协议
@@ -207,8 +208,20 @@ mypy smart_finacial_mcp/
 
 - **作者**：yuhai
 - **邮箱**：me.yuhai@hotmail.com
-- **项目地址**：https://github.com/YUHAI0/smart-finacial-mcp
-- **问题反馈**：https://github.com/YUHAI0/smart-finacial-mcp/issues
+- **项目地址**：https://github.com/YUHAI0/smart-financial-mcp
+- **问题反馈**：https://github.com/YUHAI0/smart-financial-mcp/issues
+
+---
+
+⭐ 如果这个项目对你有帮助，请给它一个星标！
+
+🚀 开始使用 Smart Financial MCP，让 AI 助手成为你的专业金融数据分析师！
+## 📞 联系方式
+
+- **作者**：yuhai
+- **邮箱**：me.yuhai@hotmail.com
+- **项目地址**：https://github.com/YUHAI0/smart-financial-mcp
+- **问题反馈**：https://github.com/YUHAI0/smart-financial-mcp/issues
 
 ---
 

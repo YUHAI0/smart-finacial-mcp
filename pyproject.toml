@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "smart-finacial-mcp"
+name = "smart-financial-mcp"
 dynamic = ["version"]
 description = "基于Model Context Protocol (MCP) 的智能股票数据助手"
 authors = [
@@ -45,19 +45,19 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YUHAI0/smart-finacial-mcp"
-Repository = "https://github.com/YUHAI0/smart-finacial-mcp.git"
-Documentation = "https://github.com/YUHAI0/smart-finacial-mcp#readme"
-"Bug Reports" = "https://github.com/YUHAI0/smart-finacial-mcp/issues"
+Homepage = "https://github.com/YUHAI0/smart-financial-mcp"
+Repository = "https://github.com/YUHAI0/smart-financial-mcp.git"
+Documentation = "https://github.com/YUHAI0/smart-financial-mcp#readme"
+"Bug Reports" = "https://github.com/YUHAI0/smart-financial-mcp/issues"
 
 [project.scripts]
-smart-finacial-mcp = "smart_finacial_mcp.server:main"
+smart-financial-mcp = "smart_financial_mcp.server:main"
 
 [tool.hatch.version]
-path = "smart_finacial_mcp/__init__.py"
+path = "smart_financial_mcp/__init__.py"
 
 [tool.hatch.build.targets.wheel]
-packages = ["smart_finacial_mcp"]
+packages = ["smart_financial_mcp"]
 
 [tool.black]
 line-length = 100
