@@ -55,20 +55,6 @@ graph TD
 - Python 3.10 或更高版本
 - Tushare Pro 账号和 API Token
 
-### 安装步骤
-
-1. **从 PyPI 安装**
-```bash
-pip install smart-financial-mcp
-```
-
-2. **从源码安装**
-```bash
-git clone https://github.com/YUHAI0/smart-financial-mcp.git
-cd smart-financial-mcp
-pip install -e .
-```
-
 ### 配置 Tushare Token
 
 首次使用需要配置 Tushare Pro API Token：
@@ -204,18 +190,6 @@ mypy smart_financial_mcp/
 - [Model Context Protocol](https://github.com/modelcontextprotocol) - 提供 AI 助手集成框架
 - [FastMCP](https://github.com/modelcontextprotocol/servers) - 提供高效的 MCP 服务器实现
 
-## 📞 联系方式
-
-- **作者**：yuhai
-- **邮箱**：me.yuhai@hotmail.com
-- **项目地址**：https://github.com/YUHAI0/smart-financial-mcp
-- **问题反馈**：https://github.com/YUHAI0/smart-financial-mcp/issues
-
----
-
-⭐ 如果这个项目对你有帮助，请给它一个星标！
-
-🚀 开始使用 Smart Financial MCP，让 AI 助手成为你的专业金融数据分析师！
 ## 📞 联系方式
 
 - **作者**：yuhai
